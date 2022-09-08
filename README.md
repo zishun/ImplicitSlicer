@@ -3,7 +3,7 @@
 - By: Qiang Zou (built on top of Charlie C. L. Wang's MeshWorks)
 -  email: qzou.code@gmail.com
 - webpage: https://qiang-zou.github.io/
-- Latest Release: 2020
+
 
 ## !important
 The source code is for the method presented in
