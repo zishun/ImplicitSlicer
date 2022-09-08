@@ -11,15 +11,13 @@ HEADERS += \
     $$files($$PWD/QMeshLib/*.h, true) \
     $$files($$PWD/QMeshLib/*.hh, true) \
     $$files($$PWD/Utils/*.h, true) \
-    $$files($$PWD/Eigen/*.h, true) \
 
 SOURCES +=  \
-    $$files($$PWD/*.cpp, true) \
+    $$files($$PWD/*.cpp, false) \
     $$files($$PWD/GLKLib/*.cpp, true) \
     $$files($$PWD/QMeshLib/*.cpp, true) \
     $$files($$PWD/QMeshLib/*.cc, true) \
     $$files($$PWD/Utils/*.cpp, true) \
-    $$files($$PWD/Eigen/*cpph, true) \
 
 INCLUDEPATH += $$PWD \  # for root category
                $$PWD/QMeshLib/ \
